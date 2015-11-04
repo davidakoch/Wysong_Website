@@ -1,0 +1,23 @@
+body {
+	margin-top: 0px; 
+}
+
+.main_header {
+	background-color: #d69871;
+}
+
+.main_nav {
+	text-align: right; 
+	display: block; 
+}
+
+.main_nav ul li {
+	list-style: none;
+	display: inline-block;
+	font: arial, sans-serif; 
+	font-size: 12px; 
+}
+
+.main_logo {
+	display: block; 
+}
