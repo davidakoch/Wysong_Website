@@ -4,6 +4,7 @@ body {
 
 .main_header {
 	background-color: #d69871;
+	height: 30%;
 }
 
 ul{
@@ -13,6 +14,7 @@ ul{
 ul.main_nav {
 	text-align: right; 
 	display: block; 
+
 }
 
 ul.main_nav li {
@@ -26,10 +28,11 @@ ul.main_nav li {
 
 ul.sub_music_menu {
 	display: none; 
+	position: absolute;
 }
 
 ul.sub_music_menu li {
-	float: none;
+	display: block;
 }
 
 ul.main_nav li:hover ul.sub_music_menu {
