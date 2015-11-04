@@ -1,21 +1,39 @@
 body {
-	margin-top: 0px; 
+	margin: 0 0; 
 }
 
 .main_header {
 	background-color: #d69871;
 }
 
-.main_nav {
+ul{
+	list-style-type: none;
+}
+
+ul.main_nav {
 	text-align: right; 
 	display: block; 
 }
 
-.main_nav ul li {
-	list-style: none;
+ul.main_nav li {
 	display: inline-block;
-	font: arial, sans-serif; 
-	font-size: 12px; 
+	font-family: arial; 
+	font-size: 20px; 
+	padding: 20px; 
+
+}
+
+
+ul.sub_music_menu {
+	display: none; 
+}
+
+ul.sub_music_menu li {
+	float: none;
+}
+
+ul.main_nav li:hover ul.sub_music_menu {
+	display: block;
 }
 
 .main_logo {
