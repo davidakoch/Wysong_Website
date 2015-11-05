@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+
 html{
 	margin-top: -16px; 
 }
@@ -51,4 +53,5 @@ ul.main_nav li:hover ul.sub_music_menu {
 
 .main_logo {
 	display: block; 
+	font-family: 'Permanent Marker', cursive;
 }
