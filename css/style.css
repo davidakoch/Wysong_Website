@@ -118,3 +118,21 @@ ul.main_nav li:hover ul.sub_music_menu {
 	height: 50px;
 	border-radius: 4px black solid;
 }
+
+.footer_text p {
+	display: inline-block;
+	font-weight: bold; 
+}
+
+.wordpress_logo {
+	margin-left: 30px;
+}
+
+.footer_text_right {
+	float: right;
+}
+
+.footer_text_right p {
+	padding: 25px;
+}
+
