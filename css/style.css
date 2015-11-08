@@ -89,14 +89,32 @@ ul.main_nav li:hover ul.sub_music_menu {
 	margin-left: 110px;
 }
 
+.site_links_credit img {
+	width: 80%;
+	height: 50px;
+	border-radius: 4px black solid;
+}
+
 .site_links_listen_to_tracks {
 	display: inline-block;
 	width: 25%;
 	margin-left: 23px;
 }
 
+.site_links_listen_to_tracks img {
+	width: 80%;
+	height: 50px;
+	border-radius: 4px black solid;
+}
+
 .site_links_contact {
 	display: inline-block;
 	width: 25%;
 	margin-left: 23px; 
+}
+
+.site_links_contact img {
+	width: 80%;
+	height: 50px;
+	border-radius: 4px black solid;
 }
