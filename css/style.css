@@ -119,20 +119,20 @@ ul.main_nav li:hover ul.sub_music_menu {
 	border-radius: 4px black solid;
 }
 
-.footer_text p {
+.wordpress_text, .footer_text_right {
 	display: inline-block;
-	font-weight: bold; 
 }
 
-.wordpress_logo {
-	margin-left: 30px;
+.wordpress_text {
+	width: 49%;
+	float: left;
 }
 
 .footer_text_right {
-	float: right;
+	width: 49%;
+	float: left;
 }
 
 .footer_text_right p {
-	padding: 25px;
+	display: inline-block;
 }
-
