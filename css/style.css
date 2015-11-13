@@ -51,9 +51,13 @@ ul.main_nav li:hover ul.sub_music_menu {
 	display: block;
 }
 
+.main_header i {
+	margin-left: 25px; 
+}
 .main_logo {
-	display: block; 
+	display: inline-block; 
 	font-family: 'Permanent Marker', cursive;
+	margin-left: 25px; 
 }
 
 .top_photo_border {
