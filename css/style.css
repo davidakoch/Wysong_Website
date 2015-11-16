@@ -29,9 +29,12 @@ ul.main_nav li {
 	font-family: arial; 
 	font-size: 20px; 
 	padding: 20px; 
-	background-color: white; 
+	
 }
 
+ul.main_nav li:hover {
+	background-color: white;
+}
 
 ul.main_nav a {
 	display: block; 
@@ -39,11 +42,12 @@ ul.main_nav a {
 	font-weight: bold;
 }
 
+
 ul.sub_music_menu {
 	display: none; 
 	position: absolute;
 	margin-left: -60px;
-	background-color: none; 
+	background-color: white; 
 }
 
 ul.sub_music_menu li {
