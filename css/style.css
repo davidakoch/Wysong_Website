@@ -21,7 +21,7 @@ ul{
 ul.main_nav {
 	text-align: right; 
 	display: block; 
-
+	margin-right: 30px; 
 }
 
 ul.main_nav li {
@@ -29,18 +29,21 @@ ul.main_nav li {
 	font-family: arial; 
 	font-size: 20px; 
 	padding: 20px; 
-
+	background-color: white; 
 }
 
 
 ul.main_nav a {
 	display: block; 
+	color: #575f93;
+	font-weight: bold;
 }
 
 ul.sub_music_menu {
 	display: none; 
 	position: absolute;
 	margin-left: -60px;
+	background-color: none; 
 }
 
 ul.sub_music_menu li {
