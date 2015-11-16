@@ -69,10 +69,11 @@ ul.main_nav li:hover ul.sub_music_menu {
 	border-bottom: 4px #990000 solid;
 }
 
-.index_image {
+.index_image, .index_image img {
 	width: 100%;
 	height: 15em;
 }
+
 
 .bottom_photo_border {
 	width: 100%;
