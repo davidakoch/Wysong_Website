@@ -5,7 +5,8 @@ html{
 }
 
 body {
-	margin: 0 0; 
+	margin: 0 auto;
+	width: 80%; 
 }
 
 .main_header {
@@ -150,5 +151,5 @@ ul.main_nav li:hover ul.sub_music_menu {
 
 .footer_text_right p {
 	display: inline-block;
-	margin-left: 75px; 
+	margin-left: 60px; 
 }
