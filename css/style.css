@@ -38,7 +38,7 @@ ul.main_nav li:hover {
 
 ul.main_nav a {
 	display: block; 
-	color: #575f93;
+	color: #990000;
 	font-weight: bold;
 }
 
@@ -46,7 +46,7 @@ ul.main_nav a {
 ul.sub_music_menu {
 	display: none; 
 	position: absolute;
-	margin-left: -60px;
+	margin-left: -20px;
 	background-color: white; 
 }
 
