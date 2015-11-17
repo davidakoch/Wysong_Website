@@ -33,26 +33,34 @@ ul.main_nav li {
 }
 
 ul.main_nav li:hover {
-	background-color: white;
+	background-color: #990000;
 }
 
 ul.main_nav a {
 	display: block; 
-	color: #990000;
+	color: white;
 	font-weight: bold;
 }
+
+
 
 
 ul.sub_music_menu {
 	display: none; 
 	position: absolute;
+	padding: 0px;
 	margin-left: -20px;
-	background-color: white; 
+	
+}
+
+ul.sub_music_menu:hover, ul.sub_music_menu a {
+	background-color: #990000;
 }
 
 ul.sub_music_menu li {
 	display: block;
-	text-align: left
+	text-align: left;
+	background-color: #990000;
 }
 
 ul.main_nav li:hover ul.sub_music_menu {
