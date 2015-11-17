@@ -74,6 +74,7 @@ ul.main_nav li:hover ul.sub_music_menu {
 	display: inline-block; 
 	font-family: 'Permanent Marker', cursive;
 	margin-left: 25px; 
+	font-size: 45px; 
 }
 
 .top_photo_border {
@@ -141,6 +142,10 @@ ul.main_nav li:hover ul.sub_music_menu {
 	border-radius: 4px black solid;
 }
 
+.site_footer_950px {
+	display: none;
+}
+
 .site_footer {
 	background-color: #d69871;
 	height: 75px;
@@ -170,11 +175,34 @@ ul.main_nav li:hover ul.sub_music_menu {
 	margin-left: 60px; 
 }
 
-@media screen and (max-width : 1000px) {
+@media screen and (max-width : 1375px) {
+	.footer_text_right p {
+		margin-left: 25px; 
+	}
+
+}
+
+@media screen and (max-width : 1150px) {
 	body {
 		width: 100%;
 	}
 
+	.footer_text_right p {
+		margin-left: 30px; 
+	}
+}
+
+@media screen and (max-width: 950px) {
+
+	.site_footer {
+		display: none;
+	}
+
+	.site_footer_950px {
+		display: block;
+		height: 200px; 
+		text-align: center;
+	}
 
 
 }
