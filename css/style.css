@@ -169,3 +169,21 @@ ul.main_nav li:hover ul.sub_music_menu {
 	display: inline-block;
 	margin-left: 60px; 
 }
+
+@media screen and (max-width : 1000px) {
+	body {
+		width: 100%;
+	}
+
+
+
+}
+
+@media screen and (max-width : 480px) {
+
+
+
+
+
+}
+
