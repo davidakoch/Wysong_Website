@@ -14,6 +14,8 @@ body {
 	height: 30%;
 }
 
+/* css for navigation menu */
+
 ul{
 	list-style-type: none;
 }
@@ -43,7 +45,7 @@ ul.main_nav a {
 }
 
 
-
+/*css for submusic menu*/
 
 ul.sub_music_menu {
 	display: none; 
@@ -66,6 +68,8 @@ ul.sub_music_menu li {
 ul.main_nav li:hover ul.sub_music_menu {
 	display: block;
 }
+
+/*   */
 
 .main_header i {
 	margin-left: 25px; 
@@ -174,6 +178,8 @@ ul.main_nav li:hover ul.sub_music_menu {
 	display: inline-block;
 	margin-left: 60px; 
 }
+
+/* css for responsive design */
 
 @media screen and (max-width : 1375px) {
 	.footer_text_right p {
