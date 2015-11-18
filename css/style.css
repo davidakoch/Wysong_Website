@@ -1,8 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
 
-html{
-	margin-top: -16px; 
-}
 
 body {
 	margin: 0 auto;
@@ -12,6 +9,12 @@ body {
 .main_header {
 	background-color: #d69871;
 	height: 30%;
+}
+
+/* css for hamburger menu */
+
+.hamburger {
+	padding-top: 25px; 
 }
 
 /* css for navigation menu */
