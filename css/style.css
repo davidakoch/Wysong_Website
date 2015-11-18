@@ -14,7 +14,6 @@ body {
 /* css for hamburger menu */
 
 .hamburger {
-	padding-top: 25px; 
 	display: none;
 }
 
@@ -216,6 +215,8 @@ ul.main_nav li:hover ul.sub_music_menu {
 
 	.hamburger {
 		display: block;
+		padding-top: 25px;
+		padding-bottom: 20px;
 	}
 
 	ul.main_nav {
