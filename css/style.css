@@ -242,7 +242,12 @@ ul.banner_700px {
 	ul.banner_700px li {
 		display: inline-block;
 		color: white;
+		width: 100%;
 		text-align: center; 
+	}
+
+	ul.banner_700px li:hover {
+		color: gold;
 	}
 
 
