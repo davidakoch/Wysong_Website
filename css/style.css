@@ -215,52 +215,17 @@ ul.main_nav li:hover ul.sub_music_menu {
 		text-align: center;
 	}
 
-	.main_header {
-		overflow: visible;
-	}
-
-	.hamburger {
-		display: block;
-		float: left;
-		padding-top: 25px;
-		padding-bottom: 20px;
-		width: 100%;
-		margin-left: 25px; 
-	}
-
-
-	ul.main_nav {
-		display: none;
-		float: left;
-		z-index: 2;
-
-	}
-
-	ul.main_nav li {
-		font-family: arial; 
-		font-size: 20px; 
-		display: inline-block;
-	}
-
-
-	.main_logo {
-		display: inline-block; 
-		font-family: 'Permanent Marker', cursive;
-		margin-right: 25px; 
-		font-size: 45px; 
-		float: right;
-	}
-
-	.note_logo {
-		display: none;
-	}
-
 }
 
-@media screen and (max-width : 480px) {
+@media screen and (max-width : 700px) {
 
+	html {
+		margin-top: -12px; 
+	}
 
-
+	ul.main_nav {
+		display: none; 
+	}
 
 
 }
