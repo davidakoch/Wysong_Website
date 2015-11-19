@@ -224,9 +224,21 @@ ul.main_nav li:hover ul.sub_music_menu {
 		margin-left: 25px; 
 	}
 
+	.main_header {
+		z-index: 2; 
+	}
+
 	ul.main_nav {
 		display: none;
+
 	}
+
+	ul.main_nav li {
+		font-family: arial; 
+		font-size: 20px; 
+		float: left;
+	}
+
 
 	.main_logo {
 		display: inline-block; 
