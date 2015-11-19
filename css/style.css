@@ -8,7 +8,7 @@ body {
 
 .main_header {
 	background-color: #d69871;
-	height: 30%;
+	height: 200px;
 }
 
 /* css for hamburger menu */
@@ -72,9 +72,9 @@ ul.main_nav li:hover ul.sub_music_menu {
 	display: block;
 }
 
-/*   */
+/*css for main header and logo */
 
-.main_header i {
+.note_logo {
 	margin-left: 25px; 
 }
 .main_logo {
@@ -83,6 +83,8 @@ ul.main_nav li:hover ul.sub_music_menu {
 	margin-left: 25px; 
 	font-size: 45px; 
 }
+
+/*css for image*/
 
 .top_photo_border {
 	width: 100%;
@@ -215,14 +217,28 @@ ul.main_nav li:hover ul.sub_music_menu {
 
 	.hamburger {
 		display: block;
+		float: left;
 		padding-top: 25px;
 		padding-bottom: 20px;
+		width: 100%;
+		margin-left: 25px; 
 	}
 
 	ul.main_nav {
 		display: none;
 	}
 
+	.main_logo {
+		display: inline-block; 
+		font-family: 'Permanent Marker', cursive;
+		margin-right: 25px; 
+		font-size: 45px; 
+		float: right;
+	}
+
+	.note_logo {
+		display: none;
+	}
 
 }
 
