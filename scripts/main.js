@@ -3,8 +3,9 @@ $(document).on('ready', function(){
 
 $('.js-menu').on('click', function(){
 	$('.main_nav').slideToggle();
-
+	$('.main_header').animate({height:'400px'}, 500);
 });
+
 
 
 

@@ -215,6 +215,10 @@ ul.main_nav li:hover ul.sub_music_menu {
 		text-align: center;
 	}
 
+	.main_header {
+		overflow: visible;
+	}
+
 	.hamburger {
 		display: block;
 		float: left;
@@ -224,19 +228,18 @@ ul.main_nav li:hover ul.sub_music_menu {
 		margin-left: 25px; 
 	}
 
-	.main_header {
-		z-index: 2; 
-	}
 
 	ul.main_nav {
 		display: none;
+		float: left;
+		z-index: 2;
 
 	}
 
 	ul.main_nav li {
 		font-family: arial; 
 		font-size: 20px; 
-		float: left;
+		display: inline-block;
 	}
 
 
