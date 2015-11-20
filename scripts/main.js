@@ -1,16 +1,16 @@
 $(document).on('ready', function(){
-//makes the navMenu appear when click on hamburger
 
-$('.js-menu').on('click', function(){
-	$('.main_nav').slideToggle(function(){
-		$('.main_header').animate({height:'400px'}, 100);
+	//makes the 700px menu appear when you hit menu
+	$('.js_click_menu').on('click', function(){
+		$('.main_header').css("height", 500);
+		$('.menu_700px').css("display","block");
+		$('.banner_700px').css("display","none");
+
+
 	});
-});
 
 
 
-
-//$('.main_header').animate({height:'400px'}, 500);
 
 
 
