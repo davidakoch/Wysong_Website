@@ -23,13 +23,16 @@ $(document).on('ready', function(){
 		if (w > 700 && $('.banner_700px').is(':visible')){
 			$('.banner_700px').removeAttr('style');
 		} 
-
+	});	
+	
 	//makes menu 700 px disappear when you stretch
 
-
-			/*&& $('.navMenu').is(':hidden')){
-			$('.navMenu').removeAttr('style'); 
-		} */
+	$(window).on('resize', function(){
+		var w = $(window).width();
+		if (w > 700 && $('.menu_700px').is(':visible')){ 
+			$('.menu_700px').removeAttr('style');
+			$('.main_header').css("height", 200);
+		}	
 	});
 
 });//end of document.on ready
