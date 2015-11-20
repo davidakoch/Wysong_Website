@@ -16,6 +16,20 @@ $(document).on('ready', function(){
 		$('.main_header').css("height", 200);
 	});
 
-	//makes menu and banner menu disappear when you stretch
+	//makes banner 700px disappear when you stretch
+
+	$(window).on('resize', function(){
+		var w = $(window).width(); 
+		if (w > 700 && $('.banner_700px').is(':visible')){
+			$('.banner_700px').removeAttr('style');
+		} 
+
+	//makes menu 700 px disappear when you stretch
+
+
+			/*&& $('.navMenu').is(':hidden')){
+			$('.navMenu').removeAttr('style'); 
+		} */
+	});
 
 });//end of document.on ready
