@@ -308,5 +308,11 @@ ul.menu_700px {
 		display: none; 
 	}
 
+@media screen and (max-width : 640px) {
+
+	.note_logo {
+		display: none;
+	} 
+
 }
 
