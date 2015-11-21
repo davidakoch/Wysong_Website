@@ -35,4 +35,13 @@ $(document).on('ready', function(){
 		}	
 	});
 
+	//makes banner 700 px reappear 
+
+	$(window).on('resize', function(){
+		var w = $(window).width();
+		if (w < 700 && $('.banner_700px').is(':hidden')){ 
+			$('.banner_700px').removeAttr('style');
+		}
+	});
+
 });//end of document.on ready
