@@ -84,6 +84,7 @@ ul.menu_700px {
 .note_logo {
 	margin-left: 25px; 
 }
+
 .main_logo {
 	display: inline-block; 
 	font-family: 'Permanent Marker', cursive;
@@ -316,3 +317,14 @@ ul.menu_700px {
 
 }
 
+@media screen and (max-width : 540px) {
+	.main_logo {
+		font-size: 35px; 
+	}
+} 
+
+@media screen and (max-width : 450px) {
+	.main_logo {
+		font-size: 30px; 
+	}
+} 
