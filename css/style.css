@@ -107,6 +107,15 @@ ul.menu_700px {
 	height: 15em;
 }
 
+.index_image_bio, .index_image_bio img {
+	width: 100%;
+	height: 25em;
+}
+
+.index_image_bio img {
+	width: 100%;
+}
+
 
 .bottom_photo_border {
 	width: 100%;
