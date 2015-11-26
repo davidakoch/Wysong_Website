@@ -112,21 +112,22 @@ ul.menu_700px {
 .index_image_bio {
 	width: 100%;
 	height: 25em;
+	margin-bottom: -15px;
+	overflow: scroll;
 	background-image: url("../images/andrew_photo_bw.jpg");
 }
 
 .index_image_bio p {
 	color: black;
 	background-color: white;
-	margin-left: 600px;
-	width: 46%;
-	font-size: 15px;
-	overflow: scroll;
-	margin-top: 0px;
+	margin-left: 500px;
+	width: 49%;
+	font-size: 17px;
 	padding-top: 5px; 
 	z-index: 1;
 	position: relative;
 	opacity: .75;
+
 }
 
 /*css for bottom photo border*/
