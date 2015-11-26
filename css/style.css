@@ -107,15 +107,29 @@ ul.menu_700px {
 	height: 15em;
 }
 
-.index_image_bio, .index_image_bio img {
+
+/*css for bio info*/
+.index_image_bio {
 	width: 100%;
 	height: 25em;
+	background-image: url("../images/andrew_photo_bw.jpg");
 }
 
-.index_image_bio img {
-	width: 100%;
+.index_image_bio p {
+	color: black;
+	background-color: white;
+	margin-left: 600px;
+	width: 46%;
+	font-size: 15px;
+	overflow: scroll;
+	margin-top: 0px;
+	padding-top: 5px; 
+	z-index: 1;
+	position: relative;
+	opacity: .75;
 }
 
+/*css for bottom photo border*/
 
 .bottom_photo_border {
 	width: 100%;
@@ -124,6 +138,19 @@ ul.menu_700px {
 	border-top: 4px #990000 solid; 
 	border-bottom: 4px #990000 solid;
 }
+
+/*special z-index for bio page*/
+.bottom_photo_border_bio {
+	z-index: 2;
+	position: relative;
+}
+
+.site_links_row_bio {
+	z-index: 2;
+	position: relative;
+}
+
+/*css for site links*/
 
 .site_links_row {
 	display: block;
