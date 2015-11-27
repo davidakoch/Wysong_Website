@@ -170,6 +170,14 @@ ul.menu_700px {
 	height: 250px;
 }
 
+.music_title {
+	font-size: 25px;
+	text-decoration: underline;
+	margin-left: 30px;
+	font-weight: bold; 
+	padding-top: 20px; 
+}
+
 
 /*css for site links*/
 
