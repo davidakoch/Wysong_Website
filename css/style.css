@@ -7,7 +7,7 @@ body {
 .container {
 	margin: 0 auto;
 	width: 80%; 
-	font: helvetica;
+	font-family: helvetica;
 }
 
 .main_header {
@@ -105,11 +105,13 @@ ul.menu_700px {
 	font-size: 45px; 
 }
 
-/*css for image*/
+/*css for top border*/
 
 .top_photo_border {
 	border: 4px #990000 solid; 
 }
+
+/*css for image*/
 
 .index_image, .index_image img {
 	width: 100%;
@@ -117,7 +119,7 @@ ul.menu_700px {
 }
 
 
-/*css for bio info*/
+	/*css for bio info*/
 .index_image_bio {
 	width: 100%;
 	height: 25em;
@@ -132,7 +134,7 @@ ul.menu_700px {
 	margin-left: 500px;
 	width: 49%;
 	font-size: 17px;
-	padding-top: 5px; 
+	padding: 5px 25px 5px; 
 	z-index: 1;
 	position: relative;
 	opacity: .75;
