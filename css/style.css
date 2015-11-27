@@ -7,7 +7,6 @@ body {
 .container {
 	margin: 0 auto;
 	width: 80%; 
-	z-index: 3;
 }
 
 .main_header {
@@ -15,6 +14,13 @@ body {
 	height: 200px;
 	border-radius: 15px 15px 0px 0px;
 }
+
+.main_header_music {
+	background-color: burlywood;
+	height: 200px;
+	border-radius: 15px 15px 0px 0px; 
+}
+
 
 
 /* css for navigation menu */
@@ -165,6 +171,14 @@ ul.menu_700px {
 	background-color: white;
 }
 
+/*css for music body*/
+
+.music_body {
+	background-color: burlywood; 
+	height: 250px;
+}
+
+
 /*css for site links*/
 
 .site_links_row {
@@ -214,12 +228,25 @@ ul.menu_700px {
 	display: none;
 }
 
+/*css for footer*/
+
 .site_footer_950px {
+	display: none;
+}
+
+.site_footer_950px_music {
+	background-color: burlywood;
 	display: none;
 }
 
 .site_footer {
 	background-color: white;
+	height: 75px;
+	border-radius: 0px 0px 15px 15px;
+}
+
+.site_footer_music {
+	background-color: burlywood; 
 	height: 75px;
 	border-radius: 0px 0px 15px 15px;
 }
