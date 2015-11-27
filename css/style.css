@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
 
 body {
-	background-image: url;
+	background-image: url("../images/background4.jpg");
 }
 
 .container {
@@ -9,6 +9,8 @@ body {
 	width: 80%; 
 	font-family: helvetica;
 }
+
+/*css for main headers*/
 
 .main_header {
 	background-color: white;
@@ -115,7 +117,7 @@ ul.menu_700px {
 
 .index_image, .index_image img {
 	width: 100%;
-	height: 15em;
+	height: 17em;
 }
 
 
@@ -193,6 +195,7 @@ ul.menu_700px {
 	background-color: white;
 }
 
+
 .site_links_credit {
 	display: inline-block;
 	width: 25%;
@@ -221,6 +224,7 @@ ul.menu_700px {
 	display: inline-block;
 	width: 25%;
 	margin-left: 23px; 
+	margin-right: 110px; 
 }
 
 .site_links_contact img {
