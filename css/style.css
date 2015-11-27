@@ -1,14 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
 
-
 body {
+	background-image: url;
+}
+
+.container {
 	margin: 0 auto;
 	width: 80%; 
+	z-index: 3;
 }
 
 .main_header {
-	background-color: burlywood;
+	background-color: white;
 	height: 200px;
+	border-radius: 15px 15px 0px 0px;
 }
 
 
@@ -38,7 +43,7 @@ ul.main_nav li:hover {
 
 ul.main_nav a {
 	display: block; 
-	color: white;
+	color: black;
 	font-weight: bold;
 }
 
@@ -144,11 +149,20 @@ ul.menu_700px {
 .bottom_photo_border_bio {
 	z-index: 2;
 	position: relative;
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	border-top: 4px #990000 solid; 
+	border-bottom: 4px #990000 solid;
 }
 
 .site_links_row_bio {
 	z-index: 2;
 	position: relative;
+	display: block;
+	width: 100%;
+	height: 15em;
+	background-color: white;
 }
 
 /*css for site links*/
@@ -157,7 +171,7 @@ ul.menu_700px {
 	display: block;
 	width: 100%;
 	height: 15em;
-	background-color: #d69871;
+	background-color: white;
 }
 
 .site_links_credit {
@@ -205,13 +219,14 @@ ul.menu_700px {
 }
 
 .site_footer {
-	background-color: #d69871;
+	background-color: white;
 	height: 75px;
+	border-radius: 0px 0px 15px 15px;
 }
 
 .wordpress_text, .footer_text_right {
 	display: inline-block;
-	color: white;
+	color: black;
 }
 
 .wordpress_text {
