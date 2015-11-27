@@ -178,6 +178,11 @@ ul.menu_700px {
 	padding-top: 20px; 
 }
 
+/*css for contact body*/
+	.contact_body {
+	background-color: white; 
+	height: 250px;
+}
 
 /*css for site links*/
 
