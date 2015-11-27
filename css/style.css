@@ -7,6 +7,7 @@ body {
 .container {
 	margin: 0 auto;
 	width: 80%; 
+	font: helvetica;
 }
 
 .main_header {
@@ -51,6 +52,7 @@ ul.main_nav a {
 	display: block; 
 	color: black;
 	font-weight: bold;
+	text-decoration: none; 
 }
 
 
@@ -106,11 +108,7 @@ ul.menu_700px {
 /*css for image*/
 
 .top_photo_border {
-	width: 100%;
-	height: 50px;
-	background-color: black;
-	border-top: 4px #990000 solid; 
-	border-bottom: 4px #990000 solid;
+	border: 4px #990000 solid; 
 }
 
 .index_image, .index_image img {
@@ -144,22 +142,14 @@ ul.menu_700px {
 /*css for bottom photo border*/
 
 .bottom_photo_border {
-	width: 100%;
-	height: 50px;
-	background-color: black;
-	border-top: 4px #990000 solid; 
-	border-bottom: 4px #990000 solid;
+	border: 4px #990000 solid; 
 }
 
 /*special z-index for bio page*/
 .bottom_photo_border_bio {
 	z-index: 2;
 	position: relative;
-	width: 100%;
-	height: 50px;
-	background-color: black;
-	border-top: 4px #990000 solid; 
-	border-bottom: 4px #990000 solid;
+	border: 4px #990000 solid; 
 }
 
 .site_links_row_bio {
