@@ -1,7 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
 
 body {
-	background-image: url("../images/background4.jpg");
+	background-image: url("../images/indexbackground.jpg");
+	background-repeat: no-repeat;
 }
 
 .container {
