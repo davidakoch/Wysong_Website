@@ -24,8 +24,6 @@ body {
 	border-radius: 15px 15px 0px 0px; 
 }
 
-
-
 /* css for navigation menu */
 
 ul{
@@ -46,7 +44,7 @@ ul.main_nav li, ul.main_nav_music li {
 	
 }
 
-ul.main_nav li:hover, {
+ul.main_nav li:hover {
 	background-color: #DD4E55;
 }
 
@@ -63,23 +61,43 @@ ul.main_nav a, ul.main_nav_music a {
 
 
 
-/*css for submusic menu*/
 
-ul.sub_music_menu, ul.sub_music_menu_music{
+
+ul.sub_music_menu_music {
 	display: none; 
 	position: absolute;
 	padding: 0px;
 	margin-left: -20px;
-	
 }
 
-ul.sub_music_menu:hover {
-	background-color: #DD4E55;
+
+ul.sub_music_menu_music li {
+	display: block;
+	text-align: left;
+	background-color: white;
 }
 
-ul.sub_music_menu_music:hover {
-	background-color: white; 
+ul.sub_music_menu_music li:hover {
+	background-color: #990000;
 }
+
+
+ul.main_nav li:hover ul.sub_music_menu_music {
+	display: block;
+}
+
+
+
+
+/*css for submusic menu*/
+
+ul.sub_music_menu {
+	display: none; 
+	position: absolute;
+	padding: 0px;
+	margin-left: -20px;
+}
+
 
 ul.sub_music_menu li {
 	display: block;
@@ -87,15 +105,10 @@ ul.sub_music_menu li {
 	background-color: #DD4E55;
 }
 
-ul.sub_music_menu_music li {
-	display: block;
-	text-align: left;
-	background-color: black;
-}
-
 ul.sub_music_menu li:hover {
 	background-color: #990000;
 }
+
 
 ul.main_nav li:hover ul.sub_music_menu {
 	display: block;
