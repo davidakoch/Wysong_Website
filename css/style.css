@@ -19,7 +19,7 @@ body {
 }
 
 .main_header_music {
-	background-color: burlywood;
+	background-color: #DD4E55;
 	height: 200px;
 	border-radius: 15px 15px 0px 0px; 
 }
@@ -117,6 +117,10 @@ ul.menu_700px {
 	border: 4px #DD4E55 solid; 
 }
 
+.top_photo_border_music {
+	border: 4px white soli;
+}
+
 /*css for image*/
 
 .index_image, .index_image img {
@@ -169,10 +173,10 @@ ul.menu_700px {
 	background-color: white;
 }
 
-/*css for music body*/
+/*css for music and contact body*/
 
-.music_body {
-	background-color: burlywood; 
+.music_body, .contact_body {
+	background-color: white; 
 	height: 250px;
 }
 
@@ -184,11 +188,6 @@ ul.menu_700px {
 	padding-top: 20px; 
 }
 
-/*css for contact body*/
-	.contact_body {
-	background-color: white; 
-	height: 250px;
-}
 
 /*css for site links*/
 
@@ -248,7 +247,7 @@ ul.menu_700px {
 }
 
 .site_footer_950px_music {
-	background-color: burlywood;
+	background-color: #DD4E55;
 	display: none;
 }
 
@@ -259,7 +258,7 @@ ul.menu_700px {
 }
 
 .site_footer_music {
-	background-color: burlywood; 
+	background-color: #DD4E55; 
 	height: 75px;
 	border-radius: 0px 0px 15px 15px;
 }
