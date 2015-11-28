@@ -32,13 +32,13 @@ ul{
 	list-style-type: none;
 }
 
-ul.main_nav {
+ul.main_nav, ul.main_nav_music {
 	text-align: right; 
 	display: block; 
 	margin-right: 30px; 
 }
 
-ul.main_nav li {
+ul.main_nav li, ul.main_nav_music li {
 	display: inline-block;
 	font-family: arial; 
 	font-size: 20px; 
@@ -46,11 +46,15 @@ ul.main_nav li {
 	
 }
 
-ul.main_nav li:hover {
+ul.main_nav li:hover, {
 	background-color: #DD4E55;
 }
 
-ul.main_nav a {
+ul.main_nav_music li:hover {
+	background-color: white; 
+}
+
+ul.main_nav a, ul.main_nav_music a {
 	display: block; 
 	color: black;
 	font-weight: bold;
@@ -61,7 +65,7 @@ ul.main_nav a {
 
 /*css for submusic menu*/
 
-ul.sub_music_menu {
+ul.sub_music_menu, ul.sub_music_menu_music{
 	display: none; 
 	position: absolute;
 	padding: 0px;
@@ -73,10 +77,20 @@ ul.sub_music_menu:hover {
 	background-color: #DD4E55;
 }
 
+ul.sub_music_menu_music:hover {
+	background-color: white; 
+}
+
 ul.sub_music_menu li {
 	display: block;
 	text-align: left;
 	background-color: #DD4E55;
+}
+
+ul.sub_music_menu_music li {
+	display: block;
+	text-align: left;
+	background-color: black;
 }
 
 ul.sub_music_menu li:hover {
