@@ -82,7 +82,7 @@ ul.sub_music_menu_music li:hover {
 }
 
 
-ul.main_nav li:hover ul.sub_music_menu_music {
+ul.main_nav_music li:hover ul.sub_music_menu_music {
 	display: block;
 }
 
