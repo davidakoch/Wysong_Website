@@ -148,6 +148,8 @@ ul.menu_700px {
 	border: 4px white soli;
 }
 
+
+
 /*css for image*/
 
 .index_image, .index_image img {
@@ -205,6 +207,10 @@ ul.menu_700px {
 .music_body, .contact_body {
 	background-color: white; 
 	height: 250px;
+}
+
+.music_body {
+	margin-top: -25px; 
 }
 
 .music_title {
