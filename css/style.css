@@ -45,7 +45,7 @@ ul.main_nav li, ul.main_nav_music li {
 }
 
 ul.main_nav li:hover {
-	background-color: #DD4E55;
+	background-color: grey;
 }
 
 ul.main_nav_music li:hover {
@@ -138,18 +138,6 @@ ul.menu_700px {
 	font-size: 45px; 
 }
 
-/*css for top border*/
-
-.top_photo_border {
-	border: 4px #DD4E55 solid; 
-}
-
-.top_photo_border_music {
-	border: 4px white soli;
-}
-
-
-
 /*css for image*/
 
 .index_image, .index_image img {
@@ -157,8 +145,7 @@ ul.menu_700px {
 	height: 17em;
 }
 
-
-	/*css for bio info*/
+/*css for bio info*/
 .index_image_bio {
 	width: 100%;
 	height: 25em;
@@ -178,12 +165,6 @@ ul.menu_700px {
 	position: relative;
 	opacity: .75;
 
-}
-
-/*css for bottom photo border*/
-
-.bottom_photo_border {
-	border: 4px #DD4E55 solid; 
 }
 
 /*special z-index for bio page*/
