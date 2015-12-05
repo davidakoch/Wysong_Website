@@ -102,7 +102,7 @@ ul.sub_music_menu {
 ul.sub_music_menu li {
 	display: block;
 	text-align: left;
-	background-color: #DD4E55;
+	background-color: grey;
 }
 
 ul.sub_music_menu li:hover {
