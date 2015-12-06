@@ -60,9 +60,6 @@ ul.main_nav a, ul.main_nav_music a {
 }
 
 
-
-
-
 ul.sub_music_menu_music {
 	display: none; 
 	position: absolute;
@@ -85,8 +82,6 @@ ul.sub_music_menu_music li:hover {
 ul.main_nav_music li:hover ul.sub_music_menu_music {
 	display: block;
 }
-
-
 
 
 /*css for submusic menu*/
@@ -126,6 +121,10 @@ ul.menu_700px {
 }
 
 /*css for main header and logo */
+
+.header_logo {
+	margin-top: 50px;
+}
 
 .note_logo {
 	margin-left: 25px; 
@@ -202,57 +201,6 @@ ul.menu_700px {
 	padding-top: 20px; 
 }
 
-
-/*css for site links*/
-
-.site_links_row {
-	display: block;
-	width: 100%;
-	height: 15em;
-	background-color: white;
-}
-
-
-.site_links_credit {
-	display: inline-block;
-	width: 25%;
-	margin-left: 110px;
-}
-
-.site_links_credit img {
-	width: 80%;
-	height: 50px;
-	border-radius: 4px black solid;
-}
-
-.site_links_listen_to_tracks {
-	display: inline-block;
-	width: 25%;
-	margin-left: 23px;
-}
-
-.site_links_listen_to_tracks img {
-	width: 80%;
-	height: 50px;
-	border-radius: 4px black solid;
-}
-
-.site_links_contact {
-	display: inline-block;
-	width: 25%;
-	margin-left: 23px; 
-	margin-right: 110px; 
-}
-
-.site_links_contact img {
-	width: 80%;
-	height: 50px;
-	border-radius: 4px black solid;
-}
-
-.site_links_list {
-	display: none;
-}
 
 /*css for footer*/
 
