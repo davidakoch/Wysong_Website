@@ -18,12 +18,6 @@ body {
 	border-radius: 15px 15px 0px 0px;
 }
 
-.main_header_music {
-	background-color: #DD4E55;
-	height: 200px;
-	border-radius: 15px 15px 0px 0px; 
-}
-
 /* css for navigation menu */
 
 ul{
@@ -101,7 +95,7 @@ ul.sub_music_menu li {
 }
 
 ul.sub_music_menu li:hover {
-	background-color: #443E35;
+	background-color: #dae0e6;
 }
 
 
@@ -215,12 +209,6 @@ ul.menu_700px {
 
 .site_footer {
 	background-color: white;
-	height: 75px;
-	border-radius: 0px 0px 15px 15px;
-}
-
-.site_footer_music {
-	background-color: #DD4E55; 
 	height: 75px;
 	border-radius: 0px 0px 15px 15px;
 }
