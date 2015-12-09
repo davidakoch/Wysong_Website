@@ -144,7 +144,7 @@ ul.menu_700px {
 	height: 25em;
 	margin-bottom: -15px;
 	overflow: scroll;
-	background-image: url("../images/andrew_photo_bw.jpg");
+	background-image: url("../images/andrew_bio.jpg");
 }
 
 .index_image_bio p {
@@ -199,11 +199,6 @@ ul.menu_700px {
 /*css for footer*/
 
 .site_footer_950px {
-	display: none;
-}
-
-.site_footer_950px_music {
-	background-color: #DD4E55;
 	display: none;
 }
 
