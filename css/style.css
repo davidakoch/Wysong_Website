@@ -131,26 +131,8 @@ ul.menu_700px {
 	width: 49%;
 	font-size: 17px;
 	padding: 5px 25px 5px; 
-	z-index: 1;
-	position: relative;
-	opacity: .75;
+	opacity: .9;
 
-}
-
-/*special z-index for bio page*/
-.bottom_photo_border_bio {
-	z-index: 2;
-	position: relative;
-	border: 4px #DD4E55 solid; 
-}
-
-.site_links_row_bio {
-	z-index: 2;
-	position: relative;
-	display: block;
-	width: 100%;
-	height: 15em;
-	background-color: white;
 }
 
 /*css for music and contact body*/
