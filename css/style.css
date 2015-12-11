@@ -46,14 +46,9 @@ ul.main_nav a {
 	text-decoration: none; 
 }
 
-ul.main_nav_music li:hover ul.sub_music_menu_music {
-	display: block;
-}
-
 li.active {
 	border-bottom: 1px solid black; 
 }
-
 
 /*css for submusic menu*/
 
