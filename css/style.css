@@ -15,7 +15,6 @@ body {
 .main_header {
 	background-color: white;
 	height: 225px;
-	border-radius: 15px 15px 0px 0px;
 }
 
 /* css for navigation menu */
@@ -24,15 +23,13 @@ ul{
 	list-style-type: none;
 }
 
-ul.main_nav, ul.main_nav_music {
+ul.main_nav {
 	text-align: right; 
 	display: block; 
-	margin-right: 30px; 
 }
 
-ul.main_nav li, ul.main_nav_music li {
+ul.main_nav li {
 	display: inline-block;
-	font-family: arial; 
 	font-size: 20px; 
 	padding: 20px; 
 	
@@ -42,36 +39,12 @@ ul.main_nav li:hover {
 	background-color: grey;
 }
 
-ul.main_nav_music li:hover {
-	background-color: white; 
-}
-
-ul.main_nav a, ul.main_nav_music a {
+ul.main_nav a {
 	display: block; 
 	color: black;
 	font-weight: bold;
 	text-decoration: none; 
 }
-
-
-ul.sub_music_menu_music {
-	display: none; 
-	position: absolute;
-	padding: 0px;
-	margin-left: -20px;
-}
-
-
-ul.sub_music_menu_music li {
-	display: block;
-	text-align: left;
-	background-color: white;
-}
-
-ul.sub_music_menu_music li:hover {
-	background-color: #990000;
-}
-
 
 ul.main_nav_music li:hover ul.sub_music_menu_music {
 	display: block;
@@ -209,7 +182,7 @@ ul.menu_700px {
 .site_footer {
 	background-color: white;
 	height: 75px;
-	border-radius: 0px 0px 15px 15px;
+	font-size: 15px; 
 }
 
 .wordpress_text, .footer_text_right {
