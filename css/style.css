@@ -249,14 +249,14 @@ ul.menu_700px {
 		background-color: black; 
 	}
 	
-	ul.menu_700px li {
+	ul.menu_700px li, ul.menu_700px li a {
 		display: block;
 		color: white;
 		text-align: center; 
 		padding-top: 6px;
 	}
 
-	ul.menu_700px li:hover {
+	ul.menu_700px li:hover, ul.menu_700px li a:hover {
 		color: gold;
 	}
 }
